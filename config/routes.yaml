@@ -1,0 +1,7 @@
+controllers:
+    resource: ../src/Controller/
+    type: attribute
+
+homeowner_parse:
+    path: /parse-homeowners
+    controller: App\Controller\HomeownerController::parseHomeowners
